@@ -60,16 +60,15 @@
     var buildUrl = "Build";
     var loaderUrl = buildUrl + "/Tournament.loader.js";
     var config = {
-      dataUrl: buildUrl + "/Tournament.data.gz",
-      frameworkUrl: buildUrl + "/Tournament.framework.js.gz",
-      codeUrl: buildUrl + "/Tournament.wasm.gz",
+      dataUrl: buildUrl + "/Tournament.data",
+      frameworkUrl: buildUrl + "/Tournament.framework.js",
+      codeUrl: buildUrl + "/Tournament.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "hnine",
       productName: "Tournament",
       productVersion: "1.0",
       showBanner: unityShowBanner,
     };
-
     // By default Unity keeps WebGL canvas render target size matched with
     // the DOM size of the canvas element (scaled by window.devicePixelRatio)
     // Set this to false if you want to decouple this synchronization from
